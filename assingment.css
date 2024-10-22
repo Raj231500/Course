@@ -1,0 +1,42 @@
+input[type=text] {
+    padding: 10px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: aquamarine;
+    border: 2px solid black;
+    color: rgb(3, 3, 3);
+}
+
+form {
+    background-color: rgb(136, 235, 235);
+}
+
+input[type=mob] {
+    color: black;
+}
+
+input[type=res] {
+    color: black;
+}
+.col1{
+    float: left;
+    width:5%;
+}
+
+.col2{
+    float: left;
+    width:75%;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: aquamarine;
+  }
+
+body{
+    border: 3px solid black;
+}
